@@ -1,6 +1,11 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { IoEyeOutline, IoChevronDown, IoLinkOutline } from 'react-icons/io5';
+import one from "../images/project-1.png";
+import two from "../images/project-2.png";
+import three from "../images/project-3.jpeg";
+import four from "../images/project-4.png";
+import five from "../images/project-9.png";
 
 const Portfolio = () => {
   const [activeFilter, setActiveFilter] = useState('all');
@@ -18,16 +23,16 @@ const Portfolio = () => {
       id: 1,
       title: 'Job-Listing Portal',
       category: 'web development',
-      image: '/assets/images/project-1.png',
+      image: one,
       technologies: 'HTML, CSS, JavaScript, React, MongoDb, Nodejs, ExpressJs',
-      link: '#',
+      link: 'https://github.com/tusharjain2001/JobListingPortal',
       description: 'A comprehensive job listing platform with advanced filtering and search capabilities.'
     },
     {
       id: 2,
       title: 'Gym Website',
       category: 'web development',
-      image: '/assets/images/project-2.png',
+      image: two,
       technologies: 'HTML, CSS, React, JavaScript',
       link: 'https://fitzonebytusharjain.vercel.app/',
       description: 'Modern fitness website with responsive design and interactive features.'
@@ -36,7 +41,7 @@ const Portfolio = () => {
       id: 3,
       title: 'Inventory Management System',
       category: 'web design',
-      image: '/assets/images/project-3.jpeg',
+      image: three,
       technologies: 'HTML, CSS, JavaScript',
       link: '#',
       description: 'Efficient inventory tracking system with real-time updates and reporting.'
@@ -45,16 +50,16 @@ const Portfolio = () => {
       id: 4,
       title: 'TextUtils',
       category: 'applications',
-      image: '/assets/images/project-4.png',
+      image: four,
       technologies: 'HTML, CSS, JavaScript, React',
-      link: '#',
+      link: 'https://github.com/tusharjain2001/text-utils',
       description: 'Text utility application with various text manipulation tools.'
     },
     {
       id: 5,
       title: 'Resume Builder',
       category: 'web development',
-      image: '/assets/images/project-9.png',
+      image: five,
       technologies: 'React, JavaScript, CSS, Vercel',
       link: 'https://resume-builder-git-main-tushar-jains-projects-e9d20105.vercel.app/',
       description: 'Professional resume builder with customizable templates and real-time preview.'
